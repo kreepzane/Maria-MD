@@ -3,18 +3,18 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "919931122319"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.ownernumber = [ process.env.OWNER_NUMBER || "27842930255"],
+global.ownername = process.env.OWNER_NAME || "😴kreep",
 global.ytname = "YT: AyushBotz.inc"
 global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.location = "South Africa"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "Kreep4pres",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.stickername = process.env.STICKER || "opium typeshii",
 global.packname = 'Sticker By'
-global.author = process.env.AUTHOR || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.author = process.env.AUTHOR || "Kreep",
 //console view/theme
 global.themeemoji = '🧩'
 global.wm = "Ayush botz inc."
@@ -39,20 +39,20 @@ global.autoread_status = false //auto view status/story
 
 //reply messages
 global.mess = {
-    done: '🍭 *Here you go, darling!* ',
-    prem: '🍭 *My darling, this feature is reserved for premium users only*',
-    admin: '🍭 *My darling, this feature is reserved for admins only*',
-    botAdmin: '🍭 *Darling, this feature can only be used when the bot is a group admin* ',
-    owner: '🍭 *My dearest, this feature is reserved for the owner only*',
-    group: '🍭 *Sweetheart, this feature is exclusively for groups*',
-    private: '🍭 *My love, this feature is exclusively for private chats*',
-    wait: '🍭 *Darling, in process...* ',    
-    error: '🍭 *Oh darling, there seems to be an error!*',
+    done: '🍭 *you got what you wanted* ',
+    prem: '🍭 *Nah Uh you aint premium*',
+    admin: '🍭 *You aint admin*',
+    botAdmin: '🍭 *Give me adminship for tht to happen* ',
+    owner: '🍭 *No pooks, only Kreep can do so*',
+    group: '🍭 *only for groups.*',
+    private: '🍭 *only wokrs in priv chat*',
+    wait: '🍭 *Gimme a sec* ',    
+    error: '🍭 *ErOrR failed.*',
 }
 
 module.exports = {
-ownernumber: global.ownernumber,
-ownername: global.ownername,
+ownernumber: global.ownernumber,27842930255
+ownername: global.ownername,kreep
 sessionId: process.env.id,
 AUTO_BLOCK : process.env.PM_BLOCKER,
 STATUS_SAVER : "true",
